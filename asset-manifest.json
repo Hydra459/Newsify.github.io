@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Newsify/static/css/main.8d71baf0.chunk.css",
-    "main.js": "/Newsify/static/js/main.c6c0b2ad.chunk.js",
-    "main.js.map": "/Newsify/static/js/main.c6c0b2ad.chunk.js.map",
-    "runtime-main.js": "/Newsify/static/js/runtime-main.6a4dc539.js",
-    "runtime-main.js.map": "/Newsify/static/js/runtime-main.6a4dc539.js.map",
-    "static/js/2.dff42c14.chunk.js": "/Newsify/static/js/2.dff42c14.chunk.js",
-    "static/js/2.dff42c14.chunk.js.map": "/Newsify/static/js/2.dff42c14.chunk.js.map",
-    "index.html": "/Newsify/index.html",
-    "static/css/main.8d71baf0.chunk.css.map": "/Newsify/static/css/main.8d71baf0.chunk.css.map",
-    "static/js/2.dff42c14.chunk.js.LICENSE.txt": "/Newsify/static/js/2.dff42c14.chunk.js.LICENSE.txt",
-    "static/media/hotel-3.710a5ec7.jpg": "/Newsify/static/media/hotel-3.710a5ec7.jpg",
-    "static/media/img.2612213d.jpg": "/Newsify/static/media/img.2612213d.jpg",
-    "static/media/user.4859315f.jpg": "/Newsify/static/media/user.4859315f.jpg"
+    "main.css": "/Newsify.github.io/static/css/main.2372c785.chunk.css",
+    "main.js": "/Newsify.github.io/static/js/main.08062ea0.chunk.js",
+    "main.js.map": "/Newsify.github.io/static/js/main.08062ea0.chunk.js.map",
+    "runtime-main.js": "/Newsify.github.io/static/js/runtime-main.40a238e2.js",
+    "runtime-main.js.map": "/Newsify.github.io/static/js/runtime-main.40a238e2.js.map",
+    "static/js/2.2dae18b5.chunk.js": "/Newsify.github.io/static/js/2.2dae18b5.chunk.js",
+    "static/js/2.2dae18b5.chunk.js.map": "/Newsify.github.io/static/js/2.2dae18b5.chunk.js.map",
+    "index.html": "/Newsify.github.io/index.html",
+    "static/css/main.2372c785.chunk.css.map": "/Newsify.github.io/static/css/main.2372c785.chunk.css.map",
+    "static/js/2.2dae18b5.chunk.js.LICENSE.txt": "/Newsify.github.io/static/js/2.2dae18b5.chunk.js.LICENSE.txt",
+    "static/media/hotel-3.710a5ec7.jpg": "/Newsify.github.io/static/media/hotel-3.710a5ec7.jpg",
+    "static/media/img.2612213d.jpg": "/Newsify.github.io/static/media/img.2612213d.jpg",
+    "static/media/user.4859315f.jpg": "/Newsify.github.io/static/media/user.4859315f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a4dc539.js",
-    "static/js/2.dff42c14.chunk.js",
-    "static/css/main.8d71baf0.chunk.css",
-    "static/js/main.c6c0b2ad.chunk.js"
+    "static/js/runtime-main.40a238e2.js",
+    "static/js/2.2dae18b5.chunk.js",
+    "static/css/main.2372c785.chunk.css",
+    "static/js/main.08062ea0.chunk.js"
   ]
 }
