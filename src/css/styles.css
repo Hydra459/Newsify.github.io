@@ -241,9 +241,11 @@ html {
           padding: 2rem; }
         .content__headlines-link {
           font-size: 2rem;
-          text-decoration: none; }
+          text-decoration: none;
+          transition: all .3s; }
           .content__headlines-link:hover {
-            color: #000000; }
+            color: #000000;
+            transform: scale(2); }
       .content__headlines-position {
         max-width: 60rem;
         display: flex;
@@ -288,6 +290,8 @@ html {
         font-size: 1.5rem;
         padding-top: 1rem; }
     .content__text-reviews {
+      display: flex;
+      justify-content: space-between; 
       margin-top: auto;
       padding-top: 1rem;
       border-top: 1px solid #162d3d; }

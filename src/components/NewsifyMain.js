@@ -67,7 +67,9 @@ class NewsifyMain extends React.Component {
         this.props.fetchWeather(this.props.location);
     }
 
+    
     renderFeatured = (news) => {
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         if (news.length == 0) {
             return <Spinner />
         }
@@ -85,15 +87,16 @@ class NewsifyMain extends React.Component {
                 <div className="featured__text">
                     <div className="featured__text-time">
                         <p className="paragraph">
-                            {news[0].publishedAt}
+                            {/* {news[0].publishedAt} */}
+                            {news[0].publishedAt.slice(8,10)} . {months[news[0].publishedAt.slice(6,7)]} . {news[0].publishedAt.slice(0,4)}
                         </p>
                     </div>
     
                     <div className="featured__text-main">
-                    <span class="featured__text-main-primary">
+                    <span className="featured__text-main-primary">
                         {news[0].title}
                     </span>
-                    <span class="featured__text-main-secondary">
+                    <span className="featured__text-main-secondary">
                         {news[0].description}
                     </span>
                     </div>
@@ -103,9 +106,9 @@ class NewsifyMain extends React.Component {
     }
     render() {
         this.renderCountry()
-        console.log(this.props.location);
-        console.log(this.props.country);
-        console.log(this.props.headlines);
+        // console.log(this.props.location);
+        // console.log(this.props.country);
+        // console.log(this.props.headlines);
 
         return (
             <div>

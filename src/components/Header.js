@@ -26,7 +26,7 @@ const Header = () => {
                 <Link to={`Newsify/About/`} className="navbar__item-link">About</Link>
             </div>
             <div className="navbar__item">
-                <Link to="/" className="navbar__item-link">My Blog</Link>
+                <Link to="/" className="navbar__item-link">Favourites</Link>
             </div>
             <div className="navbar__item">
                 <Link to="/" className="navbar__item-link">Contact</Link>

@@ -8,8 +8,6 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
         pageNumbers.push(i);
     }
 
-    console.log(pageNumbers)
-
     const createPageNumbers = () => {
         pageNumbers.map(number => {
             return(                    

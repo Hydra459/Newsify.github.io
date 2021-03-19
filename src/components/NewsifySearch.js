@@ -33,7 +33,7 @@ class NewsifySearch extends React.Component {
     };
 
     render() {
-        console.log(this.props.news)
+        // console.log(this.props.news)
         return (
             <div className="search">
                 <form className="search__container" onSubmit={this.props.handleSubmit(this.onSubmit)}>

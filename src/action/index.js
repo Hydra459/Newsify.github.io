@@ -31,7 +31,6 @@ export const fetchLocation = () =>  async (dispatch) => {
 
 export const fetchWeather = (loc) => async (dispatch, getState) => {
     // const { long, lat } = getState().location;
-    console.log(getState())
 
     const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${loc.lat}&lon=${loc.long}&appid=21bf0f5883e5e8912085e9dff5b81f61`);
     

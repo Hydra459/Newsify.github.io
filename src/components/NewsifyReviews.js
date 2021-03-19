@@ -63,8 +63,8 @@ class NewsifyReviews extends React.Component {
                 </form>
                 </div>
                 </div>
-                <div class="form__btn">
-                        <a class="form__btn-button" href="#">Submit</a>
+                <div className="form__btn">
+                        <a className="form__btn-button" href="#">Submit</a>
                 </div>
             </div>
         );
